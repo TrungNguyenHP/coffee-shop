@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require("D:\home\site\wwwroot\coffee-shop\datacon.php");
+require("D:\home\site\wwwroot\datacon.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Include database connection

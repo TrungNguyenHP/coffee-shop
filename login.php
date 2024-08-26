@@ -1,8 +1,7 @@
 <?php
 session_start();
-echo($_SERVER['DOCUMENT_ROOT'].'/datacon.php');
-include_once("D:\home\site\wwwroot\coffee-shop\datacon.php");
-// require($_SERVER['DOCUMENT_ROOT'].'/datacon.php');
+
+require("D:\home\site\wwwroot\coffee-shop\datacon.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Include database connection

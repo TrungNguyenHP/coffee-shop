@@ -5,7 +5,7 @@ session_start();
 
 // Check if dark mode preference is set in session
 $darkMode = isset($_SESSION['dark_mode']) ? $_SESSION['dark_mode'] : false;
-require($_SERVER['DOCUMENT_ROOT'].'datacon.php');
+require('datacon.php');
 if(isset($_SESSION['name'])){}
 	else{
 		header("location:login.php");

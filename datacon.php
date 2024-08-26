@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "coffee_shop_db";
+$servername = "coffee-shop.mysql.database.azure.com";
+$username = "tuan";
+$password = "Tohru14617";
+$database = "coffee-shop";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'datacon.php';
+// require 'datacon.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Include database connection

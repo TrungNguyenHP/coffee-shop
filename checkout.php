@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('datacon.php');
+// require('datacon.php');
 
 // Check if user is logged in
 // if (!isset($_SESSION['name'])) {

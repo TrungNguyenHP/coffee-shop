@@ -3,10 +3,10 @@ session_start();
 // require('datacon.php');
 
 // Check if user is logged in
-if (!isset($_SESSION['name'])) {
-  header("location:login.php");
-  exit(); // Stop further execution
-}
+// if (!isset($_SESSION['name'])) {
+//   header("location:login.php");
+//   exit(); // Stop further execution
+// }
 // Initialize variables
 $cartItems = []; // Initialize as an empty array
 $totalPrice = 0; // Initialize total price
